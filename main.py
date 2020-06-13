@@ -5,7 +5,7 @@ import os
 
 
 print("Facial Recognition using OpenCV")
-
+os.system("mkdir Images/")
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 image_source = 'Images/'
